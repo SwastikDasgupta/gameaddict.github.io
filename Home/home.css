@@ -1,0 +1,79 @@
+ 
+    .carousel-inner img {
+        width: 100%;
+       height: 50%;
+      }
+
+/* Set max-width for images in carousel /
+.carousel-item img {
+  max-width: 100%;
+}
+
+/ Caption styles /
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
+
+/ Hide captions on small screens /
+@media (max-width: 576px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+/ Adjust font sizes for captions on different screen sizes */
+@media (min-width: 576px) {
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 2rem;
+    }
+    .carousel-caption p {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-caption h5 {
+      font-size: 2.5rem;
+    }
+    .carousel-caption p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-caption h5 {
+      font-size: 3rem;
+    }
+    .carousel-caption p {
+      font-size: 1.75rem;
+    }
+  }
+  .container {
+    position: relative;
+  }
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+  }
+#demo{
+    z-index: 1;
+}
